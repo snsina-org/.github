@@ -1,0 +1,35 @@
+name: Introduction
+description: Introduce yourself
+title: "[Intro]: "
+labels: ["welcome"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Welcome to this organization
+        Please introduce yourself
+  - type: textarea
+    id: first_name
+    attributes:
+      label: First Name
+    validation:
+      required: true
+  - type: textarea
+    id: last_name
+    attributes:
+      label: Last Name
+    validation:
+      required: true
+ - type: textarea
+    id: email
+    attributes:
+      label: email
+    validation:
+      required: true
+  - type: textarea
+    id: github_handle
+    attributes:
+      label: GitHub Handle
+    validation:
+      required: true
+   
