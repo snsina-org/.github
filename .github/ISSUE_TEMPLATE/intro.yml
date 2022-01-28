@@ -12,24 +12,24 @@ body:
     id: first_name
     attributes:
       label: First Name
-    validation:
+    validations:
       required: true
   - type: textarea
     id: last_name
     attributes:
       label: Last Name
-    validation:
+    validations:
       required: true
- - type: textarea
+  - type: textarea
     id: email
     attributes:
       label: email
-    validation:
+    validations:
       required: true
   - type: textarea
     id: github_handle
     attributes:
       label: GitHub Handle
-    validation:
+    validations:
       required: true
    
